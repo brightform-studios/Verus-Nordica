@@ -1,18 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+</head>
+<link rel="stylesheet" href="styles.css">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verus Nordica</title>
-
-    <link rel="icon" type="image/png" href="">
+</style>
+</style>
 </head>
 
 <body>
-    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <h1 style="font-size: 3em; text-align: center;">Coming Soon</h1>
+
+    <div class="container">
+        <nav class="navbar">
+            <span class="navbar-brand">Verus Nordica</span>
+            <button class="navbar-toggle" aria-label="Toggle navigation"
+                onclick="document.querySelector('.navbar-links').classList.toggle('active')">&#9776;</button>
+            <ul class="navbar-links">
+                <li><a href="#">Top</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Company</a></li>
+            </ul>
+            <a href="#" class="navbar-contact">Contact</a>
+        </nav>
     </div>
+
 </body>
 
 </html>
