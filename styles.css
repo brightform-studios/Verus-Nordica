@@ -1,13 +1,13 @@
 /*navigation bar*/
 .container {
-    width: 650px;
+    width: 640px;
     max-width: 100%;
     margin: 0 auto;
     padding: 0 1rem;
 }
 
 .navbar {
-    height: 60px;
+    height: 65px;
     align-items: center;
     position: sticky;
     width: 100%;
@@ -25,7 +25,7 @@
 .navbar-brand {
     font-weight: 700;
     font-size: 1.2rem;
-    white-space: nowrap;
+    letter-spacing: 0.2;
 }
 
 .navbar-links {
@@ -40,15 +40,11 @@
     color: #111;
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 450;
     padding: 0.5rem 0.2rem;
     border-radius: 4px;
     transition: background 0.2s, color 0.2s;
-}
-
-.navbar-links li a:hover {
-    background: #f0f0f0;
-    color: #002A9C;
+    letter-spacing: 0.2;
 }
 
 .navbar-lang {
@@ -57,16 +53,15 @@
     margin-left: 2rem;
     margin-right: 1rem;
     font-weight: 400;
-    white-space: nowrap;
 }
 
 .navbar-contact {
-    background: #232fae;
+    background: #002699;
     color: #fff !important;
     font-weight: 650;
     border: none;
     border-radius: 4px;
-    padding: 0.5rem 2rem;
+    padding: 0.6rem 1.8rem;
     font-size: 1.1rem;
     text-decoration: none;
     transition: background 0.2s;
@@ -75,7 +70,7 @@
 }
 
 .navbar-contact:hover {
-    background: #1a237e;
+    background: #012182;
 }
 
 .navbar ul {
@@ -87,11 +82,10 @@
 }
 
 .navbar a {
-    color: #000;
-    text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
     transition: color 0.2s;
+    letter-spacing: 0.4;
 }
 
 body {
@@ -100,7 +94,7 @@ body {
 }
 
 /* Responsive Navbar */
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .navbar {
         flex-wrap: wrap;
         height: auto;
